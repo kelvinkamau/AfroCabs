@@ -994,25 +994,11 @@ ul.nav > li > a.active{
     transition: all 0.3s ease-in-out;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
 }
-.pricing-head i{
-    background-image: linear-gradient(-45deg, #2b18dd 0%, #56a2ff 50%, #51eca5 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 55px;
-}
 .pricing-head h3{
-    font-size: 16px;
+    font-size: 22px;
     color: #555;
     margin: 15px 0 10px;
     text-transform: uppercase;
-}
-.pricing-head h2 div{
-    background-image: linear-gradient(-45deg, #2b18dd 0%, #56a2ff 50%, #51eca5 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: inline-block;
 }
 .pricing-head h2{
     font-size: 60px;
@@ -1056,8 +1042,8 @@ ul.nav > li > a.active{
     transition: all 0.2s ease-in-out;
 }
 .pricing-btn:hover{
-    background-color: #0bbf6c;
-    color: #fff;
+    background-color: yellow;
+    color: #000;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
     -webkit-transform: translateY(1.1);
     transition: all 0.2s ease-in-out;
@@ -1315,7 +1301,8 @@ ul.nav > li > a.active{
     width: auto;
 }
 .social-link li a i{
-    background-image: linear-gradient(-45deg, #2b18dd 0%, #56a2ff 50%, #51eca5 100%);
+    font-size: 24px;
+    background-color: yellow;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
