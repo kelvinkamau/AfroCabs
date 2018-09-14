@@ -529,6 +529,11 @@ ul.nav > li > a.active{
 .hero-inner{
     position: relative;
 }
+@media (max-width: 600px){
+    .hero-moc{
+        display: none;
+    }
+}
 .hero-moc{
     background-image: url(../img/screen.png);
     background-position: bottom right;
@@ -1340,8 +1345,8 @@ ul.nav > li > a.active{
     line-height: 45px;
     color: #fff;
     position: fixed;
-    bottom: 50px;
-    right: 50px;
+    bottom: 20px;
+    right: 20px;
     z-index: 999;
 }
 #scroll-to-top:hover{
