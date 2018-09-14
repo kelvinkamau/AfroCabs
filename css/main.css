@@ -502,7 +502,7 @@ ul.nav > li > a.active{
     z-index: -1;
 }
 .hero-section:after{
-    background-image: url(../img/hero-wave.png);
+    background-image: url(../img/wave.png);
     background-position: bottom left;
     background-repeat: no-repeat;
     -webkit-background-size: contain;
@@ -564,7 +564,7 @@ ul.nav > li > a.active{
     font-size: 50px;
 }
 .promo-content i{
-    background-image: linear-gradient(-45deg, #2b18dd 0%, #56a2ff 50%, #51eca5 100%);
+    background-color:  #fffc00;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 700;
@@ -605,7 +605,7 @@ ul.nav > li > a.active{
 }
 .check-list li i{
     margin-right: 10px;
-    color: #56a2ff;
+    color:  #fffc00 ;
 }
 .check-list li a{
     display: inline-block;
@@ -615,7 +615,7 @@ ul.nav > li > a.active{
     display: inline-block;
 }
 .content-details .button-1{
-    background-color: #56a2ff;
+    background-color: #000000;
     font-size: 12px;
     text-transform: uppercase;
     color: #fff;
@@ -984,11 +984,12 @@ ul.nav > li > a.active{
 .pricing-box{
     padding: 40px 0;
 }
+/*TODO shit*/
 .pricing-box.middle{
     border: 1px solid transparent;
-    -moz-border-image: -moz-linear-gradient(-45deg, #2b18dd 0%, #56a2ff 50%, #51eca5 100%);
-    -webkit-border-image: -webkit-linear-gradient(-45deg, #2b18dd 0%, #56a2ff 50%, #51eca5 100%);
-    border-image: linear-gradient(-45deg, #2b18dd 0%, #56a2ff 50%, #51eca5 100%);
+    -moz-border-image: -moz-linear-gradient(-46deg, #fffc00 20%, #000000 100%);
+    -webkit-border-image: -webkit-linear-gradient(-46deg, #fffc00 20%, #000000 100%);
+    border-image: linear-gradient(-46deg, #fffc00 20%, #000000 100%);
     border-image-slice: 1;
     transition: all 0.3s ease-in-out;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
@@ -1043,7 +1044,7 @@ ul.nav > li > a.active{
     color: black;
 }
 .pricing-btn{
-    background-color: #56a2ff;
+    background-color: #000000;
     font-size: 12px;
     font-weight: 600;
     text-transform: uppercase;
@@ -1342,7 +1343,7 @@ ul.nav > li > a.active{
    Scroll To Top
    ========================================================================== */
 #scroll-to-top{
-    background-color: #56a2ff;
+    background-color: #000000;
     display: none;
     width: 45px;
     height: 45px;
@@ -1357,6 +1358,6 @@ ul.nav > li > a.active{
     z-index: 999;
 }
 #scroll-to-top:hover{
-    background-color: #0bbf6c;
+    background-color: yellow;
     color: #fff;
 }
