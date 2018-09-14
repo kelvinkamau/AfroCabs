@@ -7,6 +7,7 @@
     1.0 Common Styles
     2.0 Header Section
     3.0 Hero Section
+
     4.0 Promo Section
     5.0 Content Section
     6.0 Features Section
@@ -557,13 +558,14 @@ ul.nav > li > a.active{
 .promo-content{
     background-color: #fff;
     padding: 30px 15px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
     transition: all 0.2s ease-in-out;
 }
 .promo-content:hover{
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
-    -webkit-transform: translateY(1.1);
-    transform: translateY(-5px);
-    transition: all 0.3s ease-in-out;
+    -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
 }
 .promo-content .icon{
     font-size: 50px;
