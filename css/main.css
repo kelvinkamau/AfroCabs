@@ -1034,6 +1034,14 @@ ul.nav > li > a.active{
 .driver{
     color: black;
 }
+
+a:hover {
+    color: white;
+}
+
+.pimp a:hover {
+    color: white;
+}
 .pricing-btn{
     background-color: #000000;
     font-size: 12px;
@@ -1351,4 +1359,107 @@ ul.nav > li > a.active{
 #scroll-to-top:hover{
     background-color: yellow;
     color: #fff;
+}
+
+h5 {
+    font-weight: 700;
+}
+
+.blue-bg {
+    background-color: white;
+    color: #ED8D8D;
+    height: 100%;
+}
+
+h2 {
+    text-transform: initial;
+}
+
+.circle {
+    font-weight: bold;
+    padding: 15px 20px;
+    border-radius: 50%;
+    background-color: yellow;
+    color: black;
+    max-height: 50px;
+    z-index: 2;
+}
+
+.how-it-works.row {
+    display: flex;
+}
+
+.how-it-works.row .col-2 {
+    display: inline-flex;
+    align-self: stretch;
+    align-items: center;
+    justify-content: center;
+}
+
+.how-it-works.row .col-2::after {
+    content: "";
+    position: absolute;
+    border-left: 3px solid yellow;
+    z-index: 1;
+}
+
+.how-it-works.row .col-2.bottom::after {
+    height: 50%;
+    left: 50%;
+    top: 50%;
+}
+
+.how-it-works.row .col-2.full::after {
+    height: 100%;
+    left: calc(50% - 3px);
+}
+
+.how-it-works.row .col-2.top::after {
+    height: 50%;
+    left: 50%;
+    top: 0;
+}
+
+.timeline div {
+    padding: 0;
+    height: 40px;
+}
+
+.timeline hr {
+    border-top: 3px solid yellow;
+    margin: 0;
+    top: 17px;
+    position: relative;
+}
+
+.timeline .col-2 {
+    display: flex;
+    overflow: hidden;
+}
+
+.timeline .corner {
+    border: 3px solid yellow;
+    width: 100%;
+    position: relative;
+    border-radius: 15px;
+}
+
+.timeline .top-right {
+    left: 50%;
+    top: -50%;
+}
+
+.timeline .left-bottom {
+    left: -50%;
+    top: calc(50% - 3px);
+}
+
+.timeline .top-left {
+    left: -50%;
+    top: -50%;
+}
+
+.timeline .right-bottom {
+    left: 50%;
+    top: calc(50% - 3px);
 }
