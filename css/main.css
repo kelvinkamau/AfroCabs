@@ -531,7 +531,7 @@ ul.nav > li > a.active{
     position: relative;
 }
 @media (max-width: 600px){
-    .hero-moc{
+    .hero-moc, .vanish{
         display: none;
     }
 }
@@ -562,6 +562,14 @@ ul.nav > li > a.active{
     -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
     transition: all 0.2s ease-in-out;
+}
+@media (max-width: 600px){
+    .promo-content, .middle{
+    margin-bottom: 20px;
+    }
+    .middle{
+
+    }
 }
 .promo-content:hover{
     -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
@@ -1274,8 +1282,6 @@ a:hover {
     padding-right: 110px;
 }
 .subscribe-form .submit{
-    position: absolute;
-    right: 5px;
     height: 60px;
     width: 100px;
     text-transform: uppercase;
