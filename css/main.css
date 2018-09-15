@@ -565,10 +565,7 @@ ul.nav > li > a.active{
 }
 @media (max-width: 600px){
     .promo-content, .middle{
-    margin-bottom: 20px;
-    }
-    .middle{
-
+    margin-bottom: 10px;
     }
 }
 .promo-content:hover{
