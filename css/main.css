@@ -1,35 +1,5 @@
-/* Olio By ThemeEaster */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600,700');
 
-/*  ==========================================================================
-    Table of Contets
-    ==========================================================================
-    
-    1.0 Common Styles
-    2.0 Header Section
-    3.0 Hero Section
-
-    4.0 Promo Section
-    5.0 Content Section
-    6.0 Features Section
-    7.0 Screenshot Section
-    8.0 Team Section
-    9.0 Pricing Section
-    10.0 Testimonial Section
-    11.0 Download Section
-    12.0 Blog Section
-    13.0 Subscribe Section
-    14.0 Footer Section
-    15.0 Scrool To Top
-    
-    ==========================================================================
-    Olio App Landing Page
-    ========================================================================== */
-
-	@import url('https://fonts.googleapis.com/css?family=Poppins:400,600,700');
-	
-/*  ==========================================================================
-    Common Styles
-    ========================================================================== */
 *{
 	padding: 0;
 	margin: 0;
@@ -474,7 +444,7 @@ ul.nav > li > a.active{
    Hero Section
    ========================================================================== */
 .hero-section{
-    background-image: url(../img/hero.jpg);
+    background-image: url(../img/alt.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -499,7 +469,7 @@ ul.nav > li > a.active{
     position: absolute;
     left: 0;
     top: 0;
-    opacity: 0.8;
+    opacity: 0.5;
     z-index: -1;
 }
 .hero-section:after{
