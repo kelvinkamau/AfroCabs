@@ -444,7 +444,7 @@ ul.nav > li > a.active{
    Hero Section
    ========================================================================== */
 .hero-section{
-    background-image: url(../img/alt.jpg);
+    background-image: url(../img/hero.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -1007,10 +1007,10 @@ ul.nav > li > a.active{
     margin-bottom: 10px;
 }
 .rider{
-    color: yellow;
+    color: white;
 }
 .driver{
-    color: black;
+    color: yellow;
 }
 
 a:hover {
@@ -1343,8 +1343,8 @@ h5 {
 
 .blue-bg {
     background-color: white;
-    color: #ED8D8D;
-    height: 100%;
+    /*background: url(../img/taxi.gif) no-repeat scroll center center;
+    background-size: 40%;*/
 }
 
 h2 {
