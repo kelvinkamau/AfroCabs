@@ -439,7 +439,13 @@ ul.nav > li > a.active{
     background-color: transparent;
     color: #333;
 }
-
+.specs h1{
+    color: black;
+    line-height: 35px;
+}
+.joint{
+    margin-bottom: 40px;
+}
 /* ==========================================================================
    Hero Section
    ========================================================================== */
@@ -500,11 +506,10 @@ ul.nav > li > a.active{
 .hero-inner{
     position: relative;
 }
-@media (max-width: 600px){
+@media (max-width: 1204px){
     .hero-moc, .vanish{
         display: none;
     }
-    .
 }
 .hero-moc{
     background-image: url(../img/screen.png);
